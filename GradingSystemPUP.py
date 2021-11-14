@@ -14,3 +14,11 @@ else:
     if grade <= 96 and grade >= 94:
         print("Grade/Mark: 1.25")
         print("Description: Excellent")
+    else:
+        if grade <= 93 and grade >= 91:
+            print("Grade/Mark: 1.5")
+            print("Description: Very Good")
+        else:
+            if grade <= 90 and grade >= 88:
+                print("Grade/Mark: 1.75")
+                print("Description: Very Good")
